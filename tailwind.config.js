@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        'roboto': ['Roboto Variable', 'sans-serif'],
         'cherry-swash': ['Cherry Swash', 'serif'],
         'dancing-script': ['Dancing Script', 'cursive'],
       },

@@ -22,7 +22,6 @@ export const en = {
     explanation: [
       "Welcome! This tool will help you arrange your holiday gift exchanges. Simply list all participants, and we'll randomly assign pairings according to the rules you set.",
       "You'll receive a unique link for each participant, which you'll have to share yourself (via email, Slack, etc). [<exampleLink>Example link</exampleLink>]",
-      "No accounts, no emails, no hassle, and all hosted on <githubLink>GitHub Pages</githubLink> with no backend!",
     ].map(line => `<p>${line}</p>`).join(''),
     exampleLink: "Example link",
   },
@@ -60,7 +59,7 @@ export const en = {
     hintPlaceholder: 'Enter a hint about gift preferences (optional)',
   },
   links: {
-    title: "Links to Share",
+    title: "Links to share",
     warningParticipantsChanged: "Warning: Participants or rules have changed since the last time these links were generated.",
     resetAssignments: "Regenerate Pairings",
     shareInstructions: "Only share those links with their corresponding gift giver",

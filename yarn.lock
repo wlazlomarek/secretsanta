@@ -557,6 +557,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource-variable/dancing-script@npm:^5.2.8":
+  version: 5.2.8
+  resolution: "@fontsource-variable/dancing-script@npm:5.2.8"
+  checksum: 10c0/e962dbe06f5aac8968ec23c89c689a007245ffd012c2fcffc21d9775967c3fe00f85ef70a671d580b2041f8c02949d167553fae4123a929149572687537779be
+  languageName: node
+  linkType: hard
+
+"@fontsource-variable/roboto@npm:^5.2.8":
+  version: 5.2.8
+  resolution: "@fontsource-variable/roboto@npm:5.2.8"
+  checksum: 10c0/f6ac21eb501a1cab96dd9d40387651bff57939cdea7307f6a70a2a28043997fb4d159f796786cf82e6108a4010673a993e46dd74d714af4401078ecba084b25a
+  languageName: node
+  linkType: hard
+
 "@fontsource/cherry-swash@npm:^5.1.0":
   version: 5.1.0
   resolution: "@fontsource/cherry-swash@npm:5.1.0"
@@ -2756,6 +2770,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "secretsanta@workspace:."
   dependencies:
+    "@fontsource-variable/dancing-script": "npm:^5.2.8"
+    "@fontsource-variable/roboto": "npm:^5.2.8"
     "@fontsource/cherry-swash": "npm:^5.1.0"
     "@fontsource/dancing-script": "npm:^5.1.0"
     "@fontsource/style-script": "npm:^5.1.0"

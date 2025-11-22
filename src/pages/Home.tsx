@@ -105,12 +105,6 @@ export function Home() {
 
   const menuItems = [
     <div className="flex flex-col space-y-2 lg:flex-row lg:space-y-0 lg:space-x-2">
-      <MenuItem key={`vanity`} to="https://bsky.app/profile/mael.dev" icon={<Star className={`text-orange-500`} weight={`fill`}/>}>
-        {t(`home.vanity`)}
-      </MenuItem>
-      <MenuItem key={`sponsor`} to="https://github.com/sponsors/arcanis?frequency=one-time&sponsor=arcanis" icon={<Heart className={`text-red-700`} weight={`fill`}/>}>
-        {t(`home.sponsor`)}
-      </MenuItem>
     </div>,
   ];
 
@@ -133,7 +127,7 @@ export function Home() {
         <div className="lg:flex-[6_6_0%]">
           <PostCard>
             <div className="space-y-4">
-              <h1 className="text-xl sm:text-2xl font-bold mb-4 text-red-700">
+              <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-red-700 font-dancing-script">
                 {t('home.title')}
               </h1>
               <div className="space-y-4 text-gray-600">
