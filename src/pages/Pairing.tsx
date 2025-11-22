@@ -121,7 +121,7 @@ export function Pairing() {
                   {assignment[1].hint && (
                     <div className="flex p-4 bg-gray-50 rounded-lg leading-6 text-gray-600 whitespace-pre-wrap">
                       <div className="mr-2">🎁</div>
-                      <div className="text-lg">
+                      <div className="text-lg break-all whitespace-pre-wrap">
                         <p>{assignment[1].hint}</p>
                       </div>
                     </div>
@@ -130,7 +130,7 @@ export function Pairing() {
                   {instructions && (
                     <div className="flex p-4 bg-gray-50 rounded-lg leading-6 text-gray-600 whitespace-pre-wrap">
                       <div className="mr-2">ℹ️</div>
-                      <div className="text-lg">
+                      <div className="text-lg break-all whitespace-pre-wrap">
                         <p>{instructions}</p>
                       </div>
                     </div>
