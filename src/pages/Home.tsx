@@ -136,7 +136,7 @@ export function Home() {
                   components={{
                     p: <p/>,
                     githubLink: <a className="text-blue-500 underline" href="https://github.com/arcanis/secretsanta/" target="_blank"/>,
-                    exampleLink: <Link className="text-blue-500 underline" to="/pairing?from=Simba&to=c1w%2FUV9lXC12U578BHPYZhXxhsK0fPTqoQDU9CA7W581P%2BM%3D"/>,
+                    exampleLink: <Link className="text-blue-500 underline" to="/pairing?from=Simba&to=lPCcg70%2FHhJU5skodSsr1ocg94%2BbqyLhIHUUKSNyGf4E"/>,
                   }}
                 />
               </div>

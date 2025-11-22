@@ -27,7 +27,7 @@ export const pl = {
   },
   pairing: {
     title: "Twoje zadanie Świętego Mikołaja!",
-    assignment: "Witaj, <name/>! Jesteś mikołajem dla:",
+    assignment: "Witaj, <name/>! W tym roku jesteś Mikołajem dla:",
     loading: "Ładowanie...",
     error: "Nie udało się odszyfrować wiadomości. Link może być nieprawidłowy.",
     startYourOwn: "Stwórz swój własny planer Świętego Mikołaja!"
