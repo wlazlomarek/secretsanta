@@ -8,13 +8,13 @@ body {
   background-size: auto auto, auto auto, contain;
   background-attachment: fixed, fixed, fixed;
   animation-name: snow;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   font-family: 'Comic Sans MS';
 }
 
-.hint-links > a {
+.hint-links > a{
   text-decoration: underline;
   color: #5CC48A;
 }
