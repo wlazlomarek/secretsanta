@@ -11,6 +11,7 @@ import { motion } from "framer-motion";
 import CryptoJS from "crypto-js";
 import { Layout } from "../components/Layout";
 import { ReceiverData } from "../types";
+import { Anchorme } from "react-anchorme";
 
 async function loadPairing(
   searchParams: URLSearchParams
@@ -121,8 +122,10 @@ export function Pairing() {
                   {assignment[1].hint && (
                     <div className="flex p-4 bg-gray-50 rounded-lg leading-6 text-gray-600 whitespace-pre-wrap">
                       <div className="mr-2">🎁</div>
-                      <div className="text-lg break-all whitespace-pre-wrap">
-                        <p>{assignment[1].hint}</p>
+                      <div className="hint-links text-lg break-all whitespace-pre-wrap">
+                        <Anchorme target="_blank" rel="noreferrer">
+                          {assignment[1].hint}
+                        </Anchorme>
                       </div>
                     </div>
                   )}
